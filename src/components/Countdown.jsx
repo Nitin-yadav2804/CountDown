@@ -45,7 +45,6 @@ function Countdown() {
                 />
                 <button id="submit" onClick={handleSubmit}>Start</button>
             </div>
-            {diff}
             <div id="display">
                 <ul>
                     <li><span id="days">{getDays()}</span>days</li>
